@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0 — 2026-11-09
+
+- **Nothing is hidden by default any more.** An entry a newly installed plugin adds now always appears in the sidebar first; hiding it is the user's decision. `DEFAULT_HIDDEN` is empty.
+- The panel's **恢复默认** button is gone — with an empty default list it duplicated **全部显示**. The console `dshNavTidy.reset()` now clears the list too.
+- The More-menu row is labelled **侧栏入口** (no trailing ellipsis) and carries the sidebar icon (`IconPanelLeftOutlineRegular`).
+
 ## 0.2.0 — 2026-11-09
 
 - Adds the checkbox panel: **sidebar → More → 侧栏入口…**. Lists every current entry, untick to hide, with **全部显示 / 恢复默认** actions.

@@ -14,17 +14,17 @@ Ticking a row off hides the row. The plugin itself keeps loading and its panel s
 ```
 ┌──────────────────────────────────────────────┐
 │ 侧栏入口                                      │
-│ 取消勾选 = 从左侧栏隐藏（插件不卸载，功能照常）。  │
+│ 新装的插件入口默认都会显示出来；取消勾选即隐藏。  │
 ├──────────────────────────────────────────────┤
-│ ☐ SSH                                        │
-│ ☐ HyperFrames                                │
-│ ☐ Remotion                                   │
-│ ☐ 插件市场                                    │
-│ ☑ Logcat 实机调试                             │
+│ ☑ SSH                                        │
+│ ☑ HyperFrames                                │
+│ ☑ Remotion                                   │
+│ ☑ 插件市场                                    │
+│ ☐ Logcat 实机调试                             │
 │ ☑ 插件                                        │
 │ ☑ 无限画布                                     │
 ├──────────────────────────────────────────────┤
-│              全部显示   恢复默认   完成         │
+│                          全部显示   完成       │
 └──────────────────────────────────────────────┘
 ```
 
@@ -44,7 +44,9 @@ dsh plugin --profile desktop add https://github.com/AD199-gif/dsh-nav-tidy/relea
 
 ## Use
 
-**Checkbox panel** — sidebar → **More** → **侧栏入口…**. Untick a row to hide it, tick it back to restore. “全部显示” clears the list, “恢复默认” returns to the shipped default (`SSH`, `HyperFrames`, `Remotion`, `插件市场`).
+**Checkbox panel** — sidebar → **More** → **侧栏入口**. Untick a row to hide it, tick it back to restore; “全部显示” clears the list.
+
+**Nothing is hidden out of the box.** An entry a plugin adds shows up in the sidebar first — hiding it is your call, not the plugin's.
 
 **Console** — the same store, scriptable:
 

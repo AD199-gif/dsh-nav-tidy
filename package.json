@@ -1,6 +1,6 @@
 {
   "name": "dsh-nav-tidy",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hide any dsh Web sidebar panel entry without disabling the plugin behind it. Adds a checkbox panel under the sidebar's More menu.",
   "type": "module",
   "main": "lib/index.js",
