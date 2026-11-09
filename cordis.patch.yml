@@ -1,0 +1,6 @@
+# dsh-nav-tidy bundle patch：往 web profile 的 roster 里插一行。
+# node 半侧（exports "."）什么都不做；dsh.client 声明让浏览器半侧
+# （exports "./client"）在 Web GUI 里加载，由它隐藏指定侧栏入口。
+- insert:
+    - id: nav-tidy
+      name: 'dsh-nav-tidy'

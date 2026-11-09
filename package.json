@@ -1,0 +1,46 @@
+{
+  "name": "dsh-nav-tidy",
+  "version": "0.2.0",
+  "description": "Hide any dsh Web sidebar panel entry without disabling the plugin behind it. Adds a checkbox panel under the sidebar's More menu.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "navigation",
+    "ui"
+  ],
+  "license": "MIT",
+  "author": "AD199-gif",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AD199-gif/dsh-nav-tidy.git"
+  },
+  "homepage": "https://github.com/AD199-gif/dsh-nav-tidy#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
