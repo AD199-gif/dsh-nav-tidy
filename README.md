@@ -44,9 +44,13 @@ dsh plugin --profile desktop add https://github.com/AD199-gif/dsh-nav-tidy/relea
 
 ## Use
 
-**Checkbox panel** — sidebar → **More** → **侧栏入口**. Untick a row to hide it, tick it back to restore; “全部显示” clears the list.
+**Right-click a row** — the fastest path: right-click any panel entry in the sidebar and it disappears, with a four-second **Undo** toast. Workspace and session rows keep their own context menu.
+
+**Checkbox panel** — sidebar → **More** → **Sidebar entries** (`侧栏入口`). Untick a row to hide it, tick it back to restore; **Show all** clears the list; the search box filters by label. All copy follows the host language.
 
 **Nothing is hidden out of the box.** An entry a plugin adds shows up in the sidebar first — hiding it is your call, not the plugin's.
+
+**Stale entries** — when a hidden label no longer matches anything (the plugin was uninstalled), the panel reports how many are left over and cleans them up in one click.
 
 **Console** — the same store, scriptable:
 
